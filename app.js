@@ -72,7 +72,7 @@ const quiz = [
         ],
         correct: '1000枚'
     }, {
-        question: 'Q9:印刷の四現職の内、CMYKの内、Kはなんの略称？',
+        question: 'Q9:印刷の四原色の内、CMYKの内、Kはなんの略称？',
         answers: [
             'Key',
             'Black',
