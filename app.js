@@ -116,12 +116,12 @@ setupQuiz();
 const clickHandler = (e) => {
     if(quiz[quizIndex].correct === e.target.textContent){
         window.alert('正解！');
-        const music = new Audio('/wav/1kgmr-n2omo.wav');
+        const music = new Audio('https://creareworks.github.io/WritingUtensilsQuiz/wav/1kgmr-n2omo.wav');
         music.play();
         score++;
     }else{
         window.alert('不正解！\n正解は' + quiz[quizIndex].correct +'です！');
-        const music = new Audio('/wav/8o5m1-rhs2n.wav');
+        const music = new Audio('https://creareworks.github.io/WritingUtensilsQuiz/wav/8o5m1-rhs2n.wav');
         music.play();
     }
 
@@ -132,7 +132,7 @@ const clickHandler = (e) => {
         setupQuiz();
     }else {
         //問題を解き終わったらこちらを実行
-        window.alert('ハンター試験終了！あなたの正解数は' + score + '/' + quizLength + 'です！\n8/10以上でハンター試験合格です！');
+        window.alert('クイズ終了！あなたの正解数は' + score + '/' + quizLength + 'です！');
     }
 
 };
