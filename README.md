@@ -2,3 +2,6 @@
 【制作動機】ProgateでJavaScriptを完走しましたが、これまでは制作してるサイトにJQueryを使用して多少のアニメーションを加える程度しか行っていませんでした。
 　　　　　　JavaScriptの復習を兼ねて、生のコーディングをしたいと考え学習動画を参考にしながら、コーディングしました。
       　　 また、CSSのフレームワークを使った事がなかったので、Bootstrapを使用したCSSの適用も行っています。
+
+
+https://creareworks.github.io/WritingUtensilsQuiz/
